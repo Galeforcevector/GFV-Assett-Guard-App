@@ -1,9 +1,9 @@
 'use client';
 
 import React, { useState } from 'react';
-import { LeakyBucket } from '../components/LeakyBucket';
-import { ROICalculator } from '../components/ROICalculator';
-import { StatsGrid } from '../components/StatsGrid';
+import { LeakyBucket } from '@/components/LeakyBucket';
+import { ROICalculator } from '@/components/ROICalculator';
+import { StatsGrid } from '@/components/StatsGrid';
 import Link from 'next/link';
 
 export default function ConversionEnginePage() {
